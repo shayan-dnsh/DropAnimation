@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Drop_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t9n-69-NDP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2r-gK-4dc" customClass="CircleView" customModule="BornakTestTask" customModuleProvider="target">
+                                <rect key="frame" x="147" y="388" width="120" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="1uq-8g-VOa"/>
+                                    <constraint firstAttribute="height" constant="120" id="eG1-dx-gZM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFL-bQ-iDV" customClass="RoundedButton" customModule="BornakTestTask" customModuleProvider="target">
+                                <rect key="frame" x="192" y="607" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.49877083300000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="eKj-Xj-YbM"/>
+                                    <constraint firstAttribute="height" constant="30" id="v8a-bp-KtB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJD-Dy-6l7" customClass="RoundedButton" customModule="BornakTestTask" customModuleProvider="target">
+                                <rect key="frame" x="192" y="707" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.61870312689999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="uZ2-YJ-L7d"/>
+                                    <constraint firstAttribute="height" constant="30" id="wBa-TM-t67"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-CS-pEO" customClass="RoundedButton" customModule="BornakTestTask" customModuleProvider="target">
+                                <rect key="frame" x="192" y="657" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.30374836919999998" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VCo-Sb-7gg"/>
+                                    <constraint firstAttribute="width" constant="30" id="jka-Q2-f3e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaS-6g-Bjz" customClass="CircleButton" customModule="BornakTestTask" customModuleProvider="target">
+                                <rect key="frame" x="187" y="428" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WSs-uc-6id"/>
+                                    <constraint firstAttribute="width" constant="40" id="gmV-Hr-Zm4"/>
+                                </constraints>
+                                <state key="normal" image="ic_add"/>
+                                <connections>
+                                    <action selector="animateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U8s-Ab-oUn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jv3-PG-8Iu"/>
+                        <color key="backgroundColor" red="0.14492577309999999" green="0.13495469090000001" blue="0.2302645743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sFL-bQ-iDV" firstAttribute="centerX" secondItem="t9n-69-NDP" secondAttribute="centerX" id="1Jt-dq-RwJ"/>
+                            <constraint firstItem="lVa-CS-pEO" firstAttribute="top" secondItem="IaS-6g-Bjz" secondAttribute="bottom" constant="189" id="5GZ-uN-zwT"/>
+                            <constraint firstItem="IaS-6g-Bjz" firstAttribute="centerY" secondItem="t9n-69-NDP" secondAttribute="centerY" id="BgD-9p-BDf"/>
+                            <constraint firstItem="YJD-Dy-6l7" firstAttribute="centerX" secondItem="t9n-69-NDP" secondAttribute="centerX" id="LY1-ZT-rF9"/>
+                            <constraint firstItem="e2r-gK-4dc" firstAttribute="centerX" secondItem="t9n-69-NDP" secondAttribute="centerX" id="TGn-sv-CK5"/>
+                            <constraint firstItem="lVa-CS-pEO" firstAttribute="centerX" secondItem="t9n-69-NDP" secondAttribute="centerX" id="m0p-Lw-mgL"/>
+                            <constraint firstItem="lVa-CS-pEO" firstAttribute="top" secondItem="sFL-bQ-iDV" secondAttribute="bottom" constant="20" id="o2l-re-6WB"/>
+                            <constraint firstItem="sFL-bQ-iDV" firstAttribute="top" secondItem="IaS-6g-Bjz" secondAttribute="bottom" constant="139" id="pZN-kf-HYa"/>
+                            <constraint firstItem="e2r-gK-4dc" firstAttribute="centerY" secondItem="t9n-69-NDP" secondAttribute="centerY" id="qH3-3e-o72"/>
+                            <constraint firstItem="YJD-Dy-6l7" firstAttribute="top" secondItem="IaS-6g-Bjz" secondAttribute="bottom" constant="239" id="w80-KG-xcH"/>
+                            <constraint firstItem="IaS-6g-Bjz" firstAttribute="centerX" secondItem="t9n-69-NDP" secondAttribute="centerX" id="xq4-OU-GOw"/>
+                            <constraint firstItem="YJD-Dy-6l7" firstAttribute="top" secondItem="lVa-CS-pEO" secondAttribute="bottom" constant="20" id="zsZ-3v-5xl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityButton" destination="lVa-CS-pEO" id="xSI-u3-XDB"/>
+                        <outlet property="activityDistanceFromCircleButtonConst" destination="5GZ-uN-zwT" id="m3u-rU-p3q"/>
+                        <outlet property="activityWidthConst" destination="jka-Q2-f3e" id="hSS-Gz-XdI"/>
+                        <outlet property="circleButton" destination="IaS-6g-Bjz" id="HgX-QQ-y5v"/>
+                        <outlet property="circleView" destination="e2r-gK-4dc" id="Ivd-oV-mcx"/>
+                        <outlet property="placeButton" destination="YJD-Dy-6l7" id="qYE-BD-FwU"/>
+                        <outlet property="placeDistanceFromCircleButtonConst" destination="w80-KG-xcH" id="4u8-ww-EyE"/>
+                        <outlet property="placeWidthConst" destination="uZ2-YJ-L7d" id="6T9-jr-Ztw"/>
+                        <outlet property="storyButton" destination="sFL-bQ-iDV" id="BFM-ox-JC6"/>
+                        <outlet property="storyDistanceFromCircleButtonConst" destination="pZN-kf-HYa" id="JGV-d3-Sd9"/>
+                        <outlet property="storyWidthConst" destination="eKj-Xj-YbM" id="b3s-NG-kXL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="97" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_add" width="24" height="24"/>
+    </resources>
+</document>
