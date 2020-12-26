@@ -6,7 +6,7 @@ This is sample project that show how can give drop shadow to three button from c
 It developed by swift5 and fun challenge. 
 
 
-<img src=https://github.com/shayan-dnsh/DropAnimation/master/ScreenShot/Drob_Animation.gif"  height="668" width="375" />
+<img src=https://raw.githubusercontent.com/shayan-dnsh/DropAnimation/master/ScreenShot/Drob_Animation.gif"  height="668" width="375" />
 
 ## Installation
 
