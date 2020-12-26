@@ -1,16 +1,16 @@
-# Dropd  Animation Sample
+# Dropd animation sample written in Swift
 > This is sample project that show how can give drop shadow to three button from center another view.
 
 This is sample project that show how can give drop shadow to three button from center another view.
 
 It developed by swift5 and fun challenge. 
 
+
+<img src=https://github.com/shayan-dnsh/DropAnimation/master/ScreenShot/Drob_Animation.gif"  height="668" width="375" />
+
 ## Installation
 
-iOS Installation:
-
-```Clone project and enjoy
-```
+Clone project and enjoy
 
 ## Development setup
 
@@ -24,9 +24,9 @@ You can set up all the way you want.
 
 ## Meta
 
-Your Name – [@s_amindaneshpour](twitter.com/s_aminDaneshpur) – shayan.amindaneshpour@gmail.com
+Shayan Amin Danespour – Twiiter: [https://twitter.com/s_aminDaneshpur](twitter.com/s_aminDaneshpur) – shayan.amindaneshpour@gmail.com
 
-[github.com/shayan-dnsh](github.com/shayan-dnsh)
+Github: [github.com/shayan-dnsh](github.com/shayan-dnsh)
 
 ## Contributing
 
