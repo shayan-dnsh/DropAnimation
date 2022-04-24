@@ -10,7 +10,7 @@ It developed by swift5 and fun challenge.
 
 ## Installation
 
-Clone project and enjoy
+Clone project and Run
 
 ## Development setup
 
